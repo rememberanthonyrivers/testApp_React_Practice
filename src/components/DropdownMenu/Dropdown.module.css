@@ -1,0 +1,48 @@
+/* CategorySelector.css */
+body {
+  border: 1px solid gray;
+  width: 500px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.category-selector h1 {
+  font-size: 2em; /* Large font size for the heading */
+  margin-bottom: 0.5em; /* Space below the heading */
+}
+
+.category-selector p {
+  font-size: 1em; /* Standard font size for the paragraph */
+  margin-bottom: 1em; /* Space below the paragraph */
+}
+
+.category-select {
+  display: flex;
+  align-items: center;
+  border: 4px solid white;
+}
+
+.category-select select {
+  padding: 0.5em 1em; /* Padding for the select element */
+  font-size: 1em; /* Font size for the select element */
+  background-color: #333; /* Dark background for the select element */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+}
+
+.category-select button {
+  padding: 0.5em 1em; /* Padding for the button */
+  font-size: 1em; /* Font size for the button */
+  background-color: #444; /* Dark background for the button */
+  color: white; /* White text color */
+  border: none; /* Remove default border */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.category-select button:hover {
+  background-color: #555; /* Slightly lighter background on hover */
+}
