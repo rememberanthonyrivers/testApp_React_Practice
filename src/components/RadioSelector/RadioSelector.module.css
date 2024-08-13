@@ -1,0 +1,46 @@
+.radio_wrapper {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  width: 500px;
+
+  background-color: #1a1a1a; /* Dark background to match your image */
+}
+
+.radio_wrapper h2 {
+  text-align: center;
+  color: #fff; /* White text for dark background */
+  margin-bottom: 16px;
+}
+
+.radio_option {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #333; /* Default border color */
+  padding: 16px;
+  border-radius: 16px;
+  margin-bottom: 12px;
+  background-color: #000; /* Default background color */
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transitions */
+}
+
+.radio_option_selected {
+  border-color: #6060e3; /* Border color for selected option */
+  background-color: #28294f; /* Background color for selected option */
+}
+
+.radio_option label {
+  font-weight: bold;
+  color: #fff; /* White text */
+  margin-bottom: 4px;
+}
+
+.radio_option p {
+  color: #999; /* Grey text */
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.radio_option input[type="radio"] {
+  display: none; /* Hide the radio buttons */
+}

@@ -1,48 +1,54 @@
-/* CategorySelector.css */
-body {
-  border: 1px solid gray;
-  width: 500px;
-  color: white;
+.categorySelector {
+  padding: 20px;
+  background-color: #1c1c1e; /* Assuming a dark background */
+  border-radius: 8px;
+  color: white; /* Assuming white text */
   text-align: center;
-  padding-bottom: 30px;
-  font-family: Arial, sans-serif;
 }
 
-.category-selector h1 {
-  font-size: 2em; /* Large font size for the heading */
-  margin-bottom: 0.5em; /* Space below the heading */
+.categorySelector h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
-.category-selector p {
-  font-size: 1em; /* Standard font size for the paragraph */
-  margin-bottom: 1em; /* Space below the paragraph */
+.categorySelector p {
+  font-size: 18px;
+  color: #a3a3a3; /* Assuming a light grey text */
+  margin-bottom: 20px;
 }
 
-.category-select {
+.categorySelect {
   display: flex;
   align-items: center;
-  border: 4px solid white;
+  gap: 10px;
+  background-color: #2c2c2e; /* Assuming a slightly lighter dark background */
+  border: 1px solid #3a3a3c; /* Assuming a border color */
+  border-radius: 8px;
+  padding: 10px;
 }
 
-.category-select select {
-  padding: 0.5em 1em; /* Padding for the select element */
-  font-size: 1em; /* Font size for the select element */
-  background-color: #333; /* Dark background for the select element */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 5px 0 0 5px; /* Rounded corners on the left side */
+.categorySelect select {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2c2c2e; /* Matching the background of the container */
+  color: white;
+  flex-grow: 1;
 }
 
-.category-select button {
-  padding: 0.5em 1em; /* Padding for the button */
-  font-size: 1em; /* Font size for the button */
-  background-color: #444; /* Dark background for the button */
-  color: white; /* White text color */
-  border: none; /* Remove default border */
-  border-radius: 0 5px 5px 0; /* Rounded corners on the right side */
-  cursor: pointer; /* Pointer cursor on hover */
+.categorySelect button {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
-.category-select button:hover {
-  background-color: #555; /* Slightly lighter background on hover */
+.categorySelect button:hover {
+  background-color: #0056b3;
 }

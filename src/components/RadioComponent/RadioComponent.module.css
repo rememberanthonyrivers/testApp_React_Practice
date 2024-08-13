@@ -1,0 +1,40 @@
+.radio_wrapper {
+  background-color: #191919;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.radio_wrapper h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.radio_wrapper div {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.radio_wrapper label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.radio_wrapper p {
+  color: #fff;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.options-menu {
+  display: flex;
+  flex-direction: column;
+}
